@@ -1,4 +1,4 @@
-# Buy me a coffee - web
+# Buy me a coffee (web)
 
 This project is a demonstration of how to connect a web application with a web3 smart contract.
 
