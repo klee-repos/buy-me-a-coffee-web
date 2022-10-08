@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+// scss variables
+@import "./variables";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $global-background;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: $subtext-color;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+textarea {
+  resize: none;
+}
+
+span {
+  color: $primary-text-color;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: $text-font;
+}
+
+.error-text {
+  color: $error-color;
+}

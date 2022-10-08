@@ -1,0 +1,49 @@
+// scss variables
+@import "./variables";
+
+.navbar-container {
+  display: flex;
+  height: $navbar-height;
+  width: 100%;
+  border-bottom: 1px solid #dedede;
+}
+
+.navbar-left-container {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: flex-end;
+}
+
+.navbar-left-content {
+  display: flex;
+  width: calc(100% - $side-margin);
+}
+
+.navbar-right-content {
+  display: flex;
+  width: calc(100% - $side-margin);
+  justify-content: flex-end;
+}
+
+.coffee-logo {
+  height: 50px;
+  width: 50px;
+}
+
+.twitter-icon {
+  cursor: pointer;
+}
+
+.twitter-logo {
+  background-color: pink;
+  height: 50px;
+  width: 50px;
+}
+
+.navbar-right-container {
+  display: flex;
+  align-items: center;
+
+  width: 50%;
+}

@@ -1,0 +1,70 @@
+// scss variables
+@import "./variables";
+
+.bmac-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: calc(100vh - $navbar-height);
+}
+
+.bmac-header-text {
+  font-size: 30px;
+  font-weight: 600;
+  padding: 0 0 20px 0;
+}
+
+.bmac-buy-coffee-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.bmac-name-input {
+  display: flex;
+  width: 40%;
+}
+
+.bmac-message-input {
+  display: flex;
+  padding: 20px 0 0 0;
+  width: 40%;
+}
+
+.bmac-send-eth-button {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 0 0;
+  width: 40%;
+}
+
+@media screen and (max-width: 479px) {
+  .bmac-name-input {
+    width: 90%;
+  }
+
+  .bmac-message-input {
+    width: 90%;
+  }
+
+  .bmac-send-eth-button {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 900px) and (min-width: 479px) {
+  .bmac-name-input {
+    width: 90%;
+  }
+
+  .bmac-message-input {
+    width: 90%;
+  }
+
+  .bmac-send-eth-button {
+    width: 90%;
+  }
+}
