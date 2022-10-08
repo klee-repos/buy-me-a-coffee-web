@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Buy me a coffee - web
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a demonstration of how to connect a web application with a web3 smart contract.
 
 ## Available Scripts
 
